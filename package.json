@@ -1,0 +1,31 @@
+{
+  "name": "express-tsc-boilerplate",
+  "version": "1.0.0",
+  "description": "The repo contains minimum configurations to build a project with NodeJS and ExpressJS using Typescript.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rm -rf build/ && prettier --write src/ && tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam45564/node-express-tsc-boilerplate.git"
+  },
+  "author": "Samsul Hoque Choudhury <sam45564@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam45564/node-express-tsc-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sam45564/node-express-tsc-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11"
+  }
+}
