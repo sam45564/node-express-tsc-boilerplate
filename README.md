@@ -32,5 +32,5 @@ The repo contains sample API for testing he integration. Access it in your favor
 
 ---
 
-**NOTE:** The project doesn't have CI/CD script, Docker script and test framework as of now. Keep an eye on this project as all missing features will be added soon.🤞<br/><br/>
-Clone the project, add your functionalities in REST approach and have fun 😊
+**NOTE:** The project doesn't have CI/CD script and test framework. It is totally an individual's preference and can add desired CI/CD scritps and testing framework at the time of adding functionalities.<br/><br/>
+Clone the project, add your functionalities and have fun 😊
